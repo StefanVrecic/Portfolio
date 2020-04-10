@@ -1,0 +1,58 @@
+.portfolio-item {
+height: 460px;
+width: 350px;
+border-radius: 15px;
+border: solid black 3px;
+
+    margin-right: 3rem;
+}
+
+.portfolio-item__cover {
+    height: 230px;
+    width: 350px;
+    overflow: hidden;
+    /* border: solid red 3px; */
+}
+
+.portfolio-image {
+    width: 100px;
+    position: fixed;
+}
+
+.portfolio-item__cover--hover-button {
+    width: 150px;
+    position: relative;
+    bottom: -20px;
+}
+
+.portfolio-item__description {
+    position: relative;
+    font-size: 20px;
+    left: 20px;
+    top: 20px;
+    height: 200px;
+    width: 310px;
+    color: blue;
+    border: solid green 2px;
+}
+.hover-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.hover-button {
+    position: relative;
+    top: -80px;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: solid 2px violet;
+}
+
+.hover-button:hover {
+    transform: scale(1.1);
+}
+
+img {
+    display: block;
+}

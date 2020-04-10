@@ -1,0 +1,55 @@
+body {
+    background-color: #2F2F2F ;
+    height: 99vh;
+}
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+
+.intro-name {
+    font-family: MontSerrat,Tahoma,Arial,sans-serif;
+    color: #CACACA;
+    margin-bottom: 0;
+}
+
+.intro-subtitle {
+    color: #8A8A8A;  
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    margin-bottom: 9px;
+}
+.intro-pg {
+    color: #B6B6B6;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    margin-bottom: 9px;
+}
+.intro-pg-2 {
+    color: #B6B6B6;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+a {
+    color: inherit; /* grey colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
