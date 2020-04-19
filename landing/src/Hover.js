@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 
 
 
@@ -10,7 +11,8 @@ const Hover = ( props ) => {
 
     return (
     <div className="portfolio-item__cover--hover-button">
-        <input type="button" onClick={open} value={props.children} className="hover-button"/>
+          <Button variant="link" href={props.link} className="hover-button" >{props.children}</Button>
+        {/* <input type="button" onClick={open} value={props.children} className="hover-button"/> */}
     </div>
     );
 };
