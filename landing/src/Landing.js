@@ -11,7 +11,7 @@ const Landing = ( props ) => {
                   <h2 className="intro-subtitle">I am a web developer</h2>
                   {/* <p className="intro-pg">Take a look at my latest projects on my <b><u>web portfolio page</u></b></p> */}
                    <br/><br/>
-                  <p className="intro-pg-2">Download my resume <a href="/cv.pdf" download="Stefan-CV.pdf"> <b><u >here</u></b></a>
+                  <p className="intro-pg-2">Download my resume <a href="/static/media/cv.pdf" download="Stefan-CV.pdf"> <b><u >here</u></b></a>
                   <br></br><br></br>
                   <p className="intro-pg">Scroll down to see my latest projects</p>
                    Email me: <a href="mailto:vstefan9@gmail.com"><b><u>vstefan9@gmail.com</u></b></a></p>
