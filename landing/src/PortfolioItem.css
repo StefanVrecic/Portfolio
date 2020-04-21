@@ -22,6 +22,22 @@ transform: translateX(-.5rem); /* covers offset of the custom scroll bar */
     }
 
 }
+@media only screen and (max-width: 768px) {
+    .portfolio-item {
+        width:290px;
+    }
+    .portfolio-item__cover {
+        width: 290px;
+    }
+    img {
+        max-width: 290px;
+    }
+    .portfolio-item__description {
+        max-width: 260px;
+    }
+
+}
+
 .portfolio-item:hover {
     /* transform: scale(1.005); */
 }

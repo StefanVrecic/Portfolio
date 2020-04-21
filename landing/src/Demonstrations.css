@@ -23,7 +23,7 @@
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 640px) {
     .demonstrations {
         grid-template-columns: 1fr;
     }
