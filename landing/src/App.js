@@ -3,6 +3,7 @@ import Landing from './Landing';
 import Demonstrations from './Demonstrations';
 import './App.css';
 import Arrow from 'react-arrow'
+// ssh -i C:/Users/vstef/.ssh/id_rsa_vps2 stefan@142.93.241.100
  
 
 
@@ -15,8 +16,8 @@ function App() {
         shaftLength={35}
         headWidth={45}
         headLength={30}
-        fill='#CACACA'
-        stroke="#CACACA"
+        fill='#90FCF9'
+        stroke="#90FCF9"
         strokeWidth={3}
     />
   );

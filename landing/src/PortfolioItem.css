@@ -23,7 +23,7 @@ transform: translateX(-.5rem); /* covers offset of the custom scroll bar */
 
 .portfolio-image {
     width: 100px;
-    position: fixed;
+    position: relative;
 }
 
 .portfolio-item__cover--hover-button {
@@ -61,7 +61,8 @@ transform: translateX(-.5rem); /* covers offset of the custom scroll bar */
     padding: 5px 30px 5px 30px;
     height: 30px;
     border-radius: 20px;
-    border: solid 3px violet;
+    /* border: solid 3px #F2F4F3; */
+    border: solid 3px #8F3985;
     background: #EFF1F3;
 }
 

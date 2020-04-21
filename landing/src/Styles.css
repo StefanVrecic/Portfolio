@@ -1,6 +1,7 @@
 body {
-    background-color: #2F2F2F ;
     height: 99vh;
+    background-color: #0F0F0F;
+    /* background-color: #2F2F2F ; */
 }
 .outer {
   display: table;
@@ -14,6 +15,7 @@ body {
 .middle {
   display: table-cell;
   vertical-align: middle;
+  transform: translateY(-2.5%);
 }
 
 .intro {
@@ -27,25 +29,40 @@ body {
 
 .intro-name {
     font-family: MontSerrat,Tahoma,Arial,sans-serif;
-    color: #CACACA;
+    font-size: 2.7rem;
+    /* color: #CACACA; */
+    color: white;
     margin-bottom: 0;
 }
 
+.intro-stefan {
+  
+    color: #90FCF9;
+}
+
 .intro-subtitle {
-    color: #8A8A8A;  
     font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 1.9rem;
+    /* color: #8A8A8A;   */
+    color: white;
     margin-bottom: 9px;
 }
 .intro-pg {
-    color: #B6B6B6;
+    /* color: #B6B6B6; */
+    
+    color: white;
     font-family: Lato,Helvetica,Arial,sans-serif;
     margin-bottom: 9px;
+    font-size: 1.1rem;
 }
 .intro-pg-2 {
-    color: #B6B6B6;
+    /* color: #B6B6B6; */
+    
+    color: white;
     font-family: Lato,Helvetica,Arial,sans-serif;
     margin-bottom: 10px;
     margin-top: 0;
+    font-size: 1.1rem;
 }
 
 a {
@@ -59,12 +76,16 @@ a {
     bottom: -120%;
     width: 99vw;
     left: 1px;
-    position: absolute;
+    top: 99vh;
+    position: relative;
     padding-bottom: 15vh;
     padding-top: 15vh;
-    background-color: #8A8A8A  ;
     /* background-color: #CACACA   ; */
-    
+    /* background-color: #8A8A8A  ; */
+    /* background-color: #4264FB ; */
+    /* background-color: #76CFCC ; */
+    background-color: #B8FDFB ;
+    /* overflow-x: hidden; */
 }
 
 .demonstrations {
