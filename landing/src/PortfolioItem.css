@@ -10,6 +10,18 @@ transform: translateX(-.5rem); /* covers offset of the custom scroll bar */
 /* margin-right: 3rem; */
 }
 
+@media only screen and (max-width: 350px) {
+    .portfolio-item {
+        width: 310px
+    }
+    .portfolio-item__cover {
+        width: 310px;
+    }
+    img {
+        max-width: 300px;
+    }
+
+}
 .portfolio-item:hover {
     /* transform: scale(1.005); */
 }
