@@ -1,12 +1,13 @@
 .portfolio-item {
 height: 460px;
 width: 350px;
-/* border-radius: 15px; */
-border: solid black 2px;
+border-radius: 15px;
+border: solid black 1px;
 background-color: #EFF1F3;
 transform: translateX(-.5rem); /* covers offset of the custom scroll bar */
 
-/* box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.36); */
+box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.36);
+overflow: hidden;
 /* margin-right: 3rem; */
 }
 
@@ -55,6 +56,7 @@ transform: translateX(-.5rem); /* covers offset of the custom scroll bar */
 }
 
 .portfolio-item__cover--hover-button {
+    color: #1C2541;
     width: 150px;
     position: relative;
     bottom: -20px;
@@ -90,7 +92,8 @@ transform: translateX(-.5rem); /* covers offset of the custom scroll bar */
     height: 30px;
     border-radius: 20px;
     /* border: solid 3px #F2F4F3; */
-    border: solid 3px #8F3985;
+    /* border: solid 3px #8F3985; */
+    border: solid 3px #1C2541;
     background: #EFF1F3;
 }
 
@@ -105,9 +108,9 @@ img {
 
 
 
-/* width */
+width
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 16px;
   }
   
   /* Track */

@@ -37,7 +37,8 @@ body {
 
 .intro-stefan {
   
-    color: #90FCF9;
+    color: #5BC0BE;
+    /* color: #90FCF9; */
 }
 
 .intro-subtitle {
@@ -71,10 +72,13 @@ a {
 }
 
 
-
+body {
+    
+    overflow-x: hidden;
+}
 .test {
     bottom: -120%;
-    width: 99vw;
+    width: 100vw;
     left: 1px;
     top: 99vh;
     position: relative;
@@ -84,12 +88,17 @@ a {
     /* background-color: #8A8A8A  ; */
     /* background-color: #4264FB ; */
     /* background-color: #76CFCC ; */
-    background-color: #B8FDFB ;
-    /* overflow-x: hidden; */
+    /* background-color: #B8FDFB ; */
+    background-color: #3A506B ;
 }
+@media only screen and (max-height: 400px) {
+    .test {
+        top: 129vh;
+    }
+    }
 
 .demonstrations {
-    display: flex;
+    /* display: flex; */
     justify-content: space-around;
     width: 100vw;
 }

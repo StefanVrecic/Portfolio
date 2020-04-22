@@ -9,6 +9,8 @@ import Arrow from 'react-arrow'
 
 
 function App() {
+  // alert(window.screen.width);
+  // alert(window.screen.height);
   let element = (
     <Arrow
         direction="down"
@@ -16,17 +18,25 @@ function App() {
         shaftLength={35}
         headWidth={45}
         headLength={30}
-        fill='#90FCF9'
-        stroke="#90FCF9"
+        // fill='#90FCF9'
+        fill='#5BC0BE'
+        stroke="#5BC0BE"
+        // stroke="#90FCF9"
         strokeWidth={3}
     />
   );
+  function test() {
+    window.scrollBy({
+      top: window.innerHeight,
+      behavior: 'smooth'
+    });
+  }
 
   return (
     <div className="App">
       <div>
         <Landing/>
-        <div className="bottom-arrow">
+        <div onClick={test} className="bottom-arrow">
           {element}
           <span> </span>
           {element}
