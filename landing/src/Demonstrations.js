@@ -1,13 +1,14 @@
 import React from 'react';
 import PortfolioItem from './PortfolioItem';
 import "./Demonstrations.css";
-import { desc1, desc2, desc3, desc4, desc5 } from './importdesc';
-import { link1, link2, link3, link4} from './importdesc';
+import { desc1, desc2, desc3, desc4, desc5, desc6} from './importdesc';
+import { link1, link2, link3, link4, link5, link6} from './importdesc';
 var item = require('./td2.png');
 var item2 = require('./vek32.png');
 var item3 = require('./b1.png');
 var item4 = require('./chrome-wiki2.png');
 var item5 = require('./SignUp.png');
+var item6 = require('./sass.png');
 
 const Demonstrations = ( props ) => {
     return (
@@ -37,8 +38,14 @@ const Demonstrations = ( props ) => {
             <PortfolioItem 
                             description={desc5} 
                             imagePath={item5}
-                            appLink="https://imgur.com/a/5KtXDJ8">
+                            appLink={link5}>
             </PortfolioItem>
+            <PortfolioItem 
+                            description={desc6} 
+                            imagePath={item6}
+                            appLink={link6}>
+            </PortfolioItem>
+           
            
         </div>
         );
