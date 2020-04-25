@@ -2,7 +2,7 @@ import React from 'react';
 import PortfolioItem from './PortfolioItem';
 import "./Demonstrations.css";
 import { desc1, desc2, desc3, desc4, desc5, desc6} from './importdesc';
-import { link1, link2, link3, link4, link5, link6} from './importdesc';
+import { link1, link2, link3, link4, link5, sass1, sass2, sass3} from './importdesc';
 var item = require('./td2.png');
 var item2 = require('./vek32.png');
 var item3 = require('./b1.png');
@@ -43,7 +43,9 @@ const Demonstrations = ( props ) => {
             <PortfolioItem 
                             description={desc6} 
                             imagePath={item6}
-                            appLink={link6}>
+                            firstView={sass1}
+                            secondView={sass1}
+                            thirdView={sass1}>
             </PortfolioItem>
            
            

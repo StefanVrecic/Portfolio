@@ -2,10 +2,22 @@ import React from 'react';
 import Landing from './Landing';
 import Demonstrations from './Demonstrations';
 import './App.css';
-import Arrow from 'react-arrow'
+import Arrow from 'react-arrow';
+import axios from "axios";
+
+import io from 'socket.io-client';
+const socket = io('http://localhost:3000');
+io.connect();
+socket.emit("test");
 // ssh -i C:/Users/vstef/.ssh/id_rsa_vps2 stefan@142.93.241.100
  
+socket.on('hey', function(){
+  console.log("test");
+});
 
+const instance = axios.create({
+  baseURL: "http://localhost:3000"
+});
 
 
 function App() {
@@ -25,11 +37,22 @@ function App() {
         strokeWidth={3}
     />
   );
+
   function test() {
-    window.scrollBy({
-      top: window.innerHeight,
-      behavior: 'smooth'
+    
+    instance
+    .get("/test")            
+    .then(function(response) {
+      alert(response.data);
+    })
+    .catch(function(error) {
+      alert(error);
     });
+
+    // window.scrollBy({
+    //   top: window.innerHeight,
+    //   behavior: 'smooth'
+    // });
   }
 
   return (

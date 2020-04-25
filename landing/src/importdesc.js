@@ -4,7 +4,10 @@ export const link2 = "https://www.vekinidesign.com";
 export const link3 = "http://vrecic-bugsquash-project.herokuapp.com/login";
 export const link4 = "https://github.com/StefanVrecic/Chrome-wiki";
 export const link5 = "https://imgur.com/a/5KtXDJ8";
-export const link6 = "http://www.stefanvrecic.com/static/media/natours.html";
+
+export const sass1 = "http://www.stefanvrecic.com/static/media/natours.html";
+export const sass2 = "http://www.stefanvrecic.com/static/media/trillo.html";
+export const sass3 = "http://www.stefanvrecic.com/static/media/nexter.html";
 // export const link5 = "";
 
 export const desc1 = <div><u><a href={link1}>Tdronez.com</a></u> was my first WordPress site. Made for a client who offers drone videography services. Mobile, tablet & desktop friendly!</div>;
