@@ -39,7 +39,7 @@ function App() {
   );
 
   function test() {
-    
+    return;
     instance
     .get("/test")            
     .then(function(response) {

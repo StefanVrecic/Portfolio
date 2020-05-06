@@ -4,6 +4,7 @@ export const link2 = "https://www.vekinidesign.com";
 export const link3 = "http://vrecic-bugsquash-project.herokuapp.com/login";
 export const link4 = "https://github.com/StefanVrecic/Chrome-wiki";
 export const link5 = "https://imgur.com/a/5KtXDJ8";
+export const link6 = "http://www.stefanvrecic.com/static/media/RaffiLanding/";
 
 export const sass1 = "http://www.stefanvrecic.com/static/media/natours.html";
 export const sass2 = "http://www.stefanvrecic.com/static/media/trillo.html";
@@ -21,3 +22,5 @@ export const desc4 = <div><u><a href={link4}>Chrome-wiki</a></u> is a small <b>C
 export const desc5 = "Here are examples of components I have built from design specifications";
 
 export const desc6 = "A collection of stylish exemplary pages that I built while working through the 'Advanced CSS and Sass' tutorial.";
+
+export const desc7 = "Marketing website for client built with HTML/CSS/JS only";
