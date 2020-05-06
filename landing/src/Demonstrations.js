@@ -19,8 +19,8 @@ const Demonstrations = ( props ) => {
                             description={desc6} 
                             imagePath={item6}
                             firstView={sass1}
-                            secondView={sass1}
-                            thirdView={sass1}>
+                            secondView={sass2}
+                            thirdView={sass3}>
             </PortfolioItem>
             <PortfolioItem 
                             description={desc7} 
