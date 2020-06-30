@@ -1,32 +1,25 @@
 const express = require('express');
-const http = require('http');
+const bodyParser = require("body-parser")
 const app = express();
 const router = new express.Router();
-var cors = require('cors');
+const cors = require('cors');
+
+app.use(bodyParser.json())
 app.use(cors());
  
 app.get('/', function (req, res) {
   res.send('Hello World')
 });
 
-const socketio = require('socket.io');
-const server = http.createServer(app);
-const io = socketio(server);
-io.set('origins', 'http://localhost:3000');
-
-   
 app.listen(3000);
 
 app.get('/test', function (req, res, next) {
-    res.send(""+Math.random() * 100)
-  });
-
-  io.on('connect', socket => {
-      io.emit('hey');
-      console.log('new connection!!');
-  });
-
-  io.on('test', socket => {
-    console.log('test');
+  res.send(""+Math.random() * 100)
 });
 
+app.post("/hook", (req, res) => {
+  console.log(req.body) // Call your action on the request here
+  res.status(200).end() // Responding is important
+})
+
+// http://142.93.241.100:3000/hook
